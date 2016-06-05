@@ -3,8 +3,8 @@ package dokoCore.Old;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import dokoCore.Interfaces.Constants;
 import dokoCore.Old.Core.Cards;
-import dokoCore.Old.Core.Constants;
 
 public class Tui implements Input, Output {
 	public static boolean colored = false;

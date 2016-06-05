@@ -2,8 +2,8 @@ package dokoCore.Old;
 
 import java.util.Iterator;
 
+import dokoCore.Interfaces.Constants;
 import dokoCore.Old.Core.Cards;
-import dokoCore.Old.Core.Constants;
 
 public class Inventory implements Iterable<Integer> {
 	
@@ -23,6 +23,11 @@ public class Inventory implements Iterable<Integer> {
 		public Integer next() {
 			i++;
 			return inv.getElem(i - 1);
+		}
+		@Override
+		public void remove() {
+			// TODO Auto-generated method stub
+			
 		}
 		
 	}

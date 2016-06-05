@@ -12,7 +12,7 @@ package dokoCore.Essentials;
 public class Game {
     private int StartingPlayer;
     private int turn;
-    private Cards[][] HandCards = new Cards[4][12];
+    private Cards2[][] HandCards = new Cards2[4][12];
     private String[] Playernames = new String[4];
     
     public Game(){

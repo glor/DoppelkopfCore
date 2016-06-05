@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Stack;
 
+import dokoCore.Interfaces.Constants;
 import dokoCore.Old.Inventory;
 import dokoCore.Old.Player;
 /**
